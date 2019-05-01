@@ -1,0 +1,29 @@
+{
+    "name": "mustafakhaleddev/nova-rtl-support",
+    "description": "A Laravel Nova RTL support.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MK\\NovaRTL\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MK\\NovaRTL\\NovaRTLServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
